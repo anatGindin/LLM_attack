@@ -1,0 +1,9 @@
+openai
+tqdm 
+gspread
+matplotlib
+seaborn
+torch
+pandas
+validate_email
+
