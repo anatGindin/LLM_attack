@@ -1,0 +1,12 @@
+{
+    "dataset": "HumanEval.jsonl",
+    "model": "deepseek-ai/deepseek-coder-6.7b-base",
+    "batch_size": 5,
+    "generation": {
+        "do_sample": true,
+        "top_k": 10,
+        "top_p": 0.95,
+        "temperature": 0.1,
+        "max_new_tokens": 512
+    }
+}
