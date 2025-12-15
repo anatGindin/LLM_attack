@@ -1,0 +1,17 @@
+wandb: WARNING Serializing object of type str that is 297686 bytes
+Running initialization
+Using smart init
+Adding general init attacks
+Adding manual init attacks
+Traceback (most recent call last):
+  File "/home/ori.suliman/LLM_PROJECT/insec/run_opt_on_best_init.py", line 430, in <module>
+    main(get_args())
+  File "/home/ori.suliman/LLM_PROJECT/insec/run_opt_on_best_init.py", line 398, in main
+    find_best_init_attack(args, model, tokenizer)
+  File "/home/ori.suliman/LLM_PROJECT/insec/run_opt_on_best_init.py", line 250, in find_best_init_attack
+    manual_attacks = get_manual_attacks(args, tokenizer)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ori.suliman/LLM_PROJECT/insec/run_opt_on_best_init.py", line 183, in get_manual_attacks
+    manual_attacks.append(attack["tokens"])
+                          ~~~~~~^^^^^^^^^^
+KeyError: 'tokens'
