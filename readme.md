@@ -37,17 +37,17 @@ This repository contains the replication package for our study *“Vulnerabiliti
 1. Install required dependencies:
 ```bash
 pip install -r requirements.txt
-
+```
 2. Generate code for all models and prompt variants:
 ```bash
 python generate_code.py
-
+```
 3. Evaluate generated code using the Gemini judger:
 ```bash
 python judger.py
-
+```
 4. Analyze results and generate figures:
 ```bash
 python analyze_all.py
-
+```
 
